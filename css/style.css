@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -79,7 +82,7 @@ body {
 }
 
 body {
-  font-family: "Fredoka One", cursive;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .container {
@@ -159,12 +162,16 @@ body {
   margin-right: 54px;
 }
 .menu__item a {
-  font-size: 18px;
+  font-size: 20px;
   color: black;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 .menu__item a:hover {
-  color: #f78548;
+  color: #4ebe74;
+}
+.menu__item:first-child a:first-child {
+  color: #4ebe74;
 }
 .menu__item:last-child {
   margin-right: 0px;
@@ -180,10 +187,10 @@ body {
   .menu__item a {
     font-size: 18px;
     color: rgb(0, 0, 0);
-    font-family: "Source Code Pro", monospace;
+    font-family: "Montserrat", sans-serif;
   }
   .menu__item a:hover {
-    color: #f78548;
+    font-weight: 500;
   }
   .menu__item:last-child {
     margin-right: 0px;
@@ -239,25 +246,25 @@ body {
 }
 .about__header {
   padding: 40px 0px 20px 0px;
-  font-size: 35px;
-  font-family: "Fredoka One", cursive;
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
 }
 .about__header p {
-  color: #f57631;
+  color: #4ebe74;
 }
 .about hr {
   margin: 0px auto 35px auto;
   max-width: 50px;
-  border: 2px solid #f78548;
+  border: 2px solid #4ebe74;
   border-radius: 4px;
 }
 .about__text {
-  font-size: 18px;
+  font-size: 21px;
   padding: 0px 0px 40px 0px;
   color: white;
-  text-shadow: 1.3px 1.3px rgba(255, 154, 171, 0.5);
-  font-family: "Source Code Pro", monospace;
+  text-shadow: 1.5px 1.5px rgb(49, 74, 114);
+  font-family: "Source Sans Pro", sans-serif;
 }
 @media (max-width: 370px) {
   .about__text {
@@ -268,11 +275,11 @@ body {
   padding: 100px 0px 50px 0px;
 }
 .about__button button {
-  background-color: #f57631;
+  background-color: #4ebe74;
   border-radius: 10px;
   padding: 15px 55px 15px 55px;
-  -webkit-box-shadow: 0px 7px 0px 0px rgba(100, 86, 86, 0.7);
-          box-shadow: 0px 7px 0px 0px rgba(100, 86, 86, 0.7);
+  -webkit-box-shadow: 0px 7px 0px 0px rgba(49, 74, 114, 0.7);
+          box-shadow: 0px 7px 0px 0px rgba(49, 74, 114, 0.7);
   color: white;
   text-transform: uppercase;
   font-size: 16px;
@@ -281,12 +288,12 @@ body {
   margin: 0px 0px 15.4px 0px;
 }
 .about__button button:active {
-  background-color: #f57631;
+  background-color: #4ebe74;
   border-radius: 10px;
   margin: 7px 0px 8.655px 0px;
   padding: 15px 55px 15px 55px;
-  -webkit-box-shadow: 0px 0px 0px 0px rgba(100, 86, 86, 0.7);
-          box-shadow: 0px 0px 0px 0px rgba(100, 86, 86, 0.7);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(49, 74, 114, 0.7);
+          box-shadow: 0px 0px 0px 0px rgba(49, 74, 114, 0.7);
   color: white;
   text-transform: uppercase;
   font-size: 16px;
@@ -305,8 +312,8 @@ body {
   font-size: 22px;
 }
 .table__header {
-  font-family: "Fredoka One", cursive;
-  font-size: 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 35px;
 }
 .table__yrok {
   padding: 40px;
@@ -324,11 +331,11 @@ body {
 
 @media (max-width: 290px) {
   .about__button button {
-    background-color: #f57631;
+    background-color: #4ebe74;
     border-radius: 10px;
     padding: 15px 29px 15px 29px;
-    -webkit-box-shadow: 0px 7px 0px 0px rgba(100, 86, 86, 0.7);
-            box-shadow: 0px 7px 0px 0px rgba(100, 86, 86, 0.7);
+    -webkit-box-shadow: 0px 7px 0px 0px rgba(49, 74, 114, 0.7);
+            box-shadow: 0px 7px 0px 0px rgba(49, 74, 114, 0.7);
     color: white;
     text-transform: uppercase;
     font-size: 16px;
@@ -337,19 +344,19 @@ body {
     margin: 0px 0px 15.4px 0px;
   }
   .about__button button:active {
-    background-color: #f57631;
+    background-color: #4ebe74;
     border-radius: 10px;
     margin: 7px 0px 8.655px 0px;
     padding: 15px 29px 15px 29px;
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(100, 86, 86, 0.7);
-            box-shadow: 0px 0px 0px 0px rgba(100, 86, 86, 0.7);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(49, 74, 114, 0.7);
+            box-shadow: 0px 0px 0px 0px rgba(49, 74, 114, 0.7);
     color: white;
     text-transform: uppercase;
     font-size: 16px;
   }
 }
 .achivment {
-  background-color: #f78548;
+  background-color: rgb(56, 86, 136);
 }
 .achivment__container {
   max-width: 1100px;
@@ -441,11 +448,12 @@ body {
 .news {
   text-align: center;
   padding: 0px 0px 50px 0px;
+  margin: 0px 0px 10px 0px;
 }
 .news hr {
   margin: 0px auto 0px auto;
   max-width: 50px;
-  border: 2px solid #f78548;
+  border: 2px solid #4ebe74;
   border-radius: 4px;
 }
 .news__container {
@@ -458,7 +466,7 @@ body {
   font-size: 22px;
 }
 .news__header {
-  padding: 20px 0px 50px 0px;
+  padding: 20px 0px 30px 0px;
   text-align: center;
 }
 .news__header h3 {
@@ -466,18 +474,18 @@ body {
 }
 .news__stats {
   padding: 20px 0px 40px 0px;
+  font-size: 20px;
 }
 .news__galary {
   margin: 20px 0px 100px 0px;
   padding: 10px;
-  background-color: rgba(134, 134, 134, 0.3);
 }
 .news__button button {
-  background-color: #f57631;
+  background-color: #4ebe74;
   border-radius: 10px;
   padding: 15px 55px 15px 55px;
-  -webkit-box-shadow: 0px 7px 0px 0px rgba(100, 86, 86, 0.7);
-          box-shadow: 0px 7px 0px 0px rgba(100, 86, 86, 0.7);
+  -webkit-box-shadow: 0px 7px 0px 0px rgba(49, 74, 114, 0.7);
+          box-shadow: 0px 7px 0px 0px rgba(49, 74, 114, 0.7);
   color: white;
   text-transform: uppercase;
   font-size: 16px;
@@ -486,23 +494,23 @@ body {
   margin: 0px 0px 15.4px 0px;
 }
 .news__button button:active {
-  background-color: #f57631;
+  background-color: #4ebe74;
   border-radius: 10px;
   margin: 7px 0px 8.655px 0px;
   padding: 15px 55px 15px 55px;
-  -webkit-box-shadow: 0px 0px 0px 0px rgba(100, 86, 86, 0.7);
-          box-shadow: 0px 0px 0px 0px rgba(100, 86, 86, 0.7);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(49, 74, 114, 0.7);
+          box-shadow: 0px 0px 0px 0px rgba(49, 74, 114, 0.7);
   color: white;
   text-transform: uppercase;
   font-size: 16px;
 }
 @media (max-width: 290px) {
   .news__button button {
-    background-color: #f57631;
+    background-color: #4ebe74;
     border-radius: 10px;
     padding: 15px 9px 15px 9px;
-    -webkit-box-shadow: 0px 7px 0px 0px rgba(100, 86, 86, 0.7);
-            box-shadow: 0px 7px 0px 0px rgba(100, 86, 86, 0.7);
+    -webkit-box-shadow: 0px 7px 0px 0px rgba(49, 74, 114, 0.7);
+            box-shadow: 0px 7px 0px 0px rgba(49, 74, 114, 0.7);
     color: white;
     text-transform: uppercase;
     font-size: 16px;
@@ -511,12 +519,12 @@ body {
     margin: 0px 0px 15.4px 0px;
   }
   .news__button button:active {
-    background-color: #f57631;
+    background-color: #4ebe74;
     border-radius: 10px;
     margin: 7px 0px 8.655px 0px;
     padding: 15px 9px 15px 9px;
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(100, 86, 86, 0.7);
-            box-shadow: 0px 0px 0px 0px rgba(100, 86, 86, 0.7);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(49, 74, 114, 0.7);
+            box-shadow: 0px 0px 0px 0px rgba(49, 74, 114, 0.7);
     color: white;
     text-transform: uppercase;
     font-size: 16px;
@@ -533,6 +541,8 @@ body {
 .galary__item {
   max-width: 500px;
   margin: 0px auto;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
 }
 @media (max-width: 510px) {
   .galary .galary__container {
@@ -547,23 +557,23 @@ body {
   }
 }
 
-.item {
-  padding: 0px 10px;
-}
 .item__img {
-  padding: 0px 0px 20px 0px;
   margin: 0px auto;
 }
 .item__img img {
-  width: 200px;
-  height: 270px;
+  width: 250px;
+  height: 330px;
 }
 .item__name {
-  padding: 0px 0px 20px 0px;
+  padding: 20px 0px 20px 0px;
+  background-color: #4ebe74;
+  color: white;
 }
 .item__text {
   max-width: 200px;
   margin: 0px auto;
+  padding: 15px 0px;
+  font-size: 15px;
 }
 
 @media (max-width: 677px) {
@@ -578,9 +588,10 @@ body {
   }
 }
 .teacher {
+  color: white;
   text-align: center;
-  padding: 70px 0px 0px 0px;
-  background-color: rgb(197, 197, 197);
+  padding: 10px 0px 0px 0px;
+  background-color: rgba(49, 74, 114, 0.7);
 }
 .teacher__emoji {
   padding: 30px 0px 0px 0px;
@@ -593,16 +604,21 @@ body {
 }
 .teacher__name {
   padding: 10px 0px 50px 0px;
+  text-shadow: 1.5px 1.5px rgb(49, 74, 114);
 }
 .teacher__name h2 {
   font-size: 25px;
 }
 .teacher__foto img {
+  -webkit-box-shadow: 0px 0px 20px 2px black;
+          box-shadow: 0px 0px 20px 2px black;
+  border-radius: 10px;
   width: 390px;
   height: 600px;
 }
 .teacher__info {
   padding: 30px 0px 50px 0px;
+  text-shadow: 1.5px 1.5px rgb(49, 74, 114);
 }
 .teacher__info p {
   font-size: 19px;
