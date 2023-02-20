@@ -845,3 +845,56 @@ body {
     font-size: 9px;
   }
 }
+.main-gl {
+  background: -webkit-gradient(linear, left top, right bottom, from(blue), to(pink));
+  background: linear-gradient(to bottom right, blue, pink);
+}
+.main-gl__container {
+  max-width: 900px;
+  margin: 0px auto;
+  text-align: center;
+}
+.main-gl__card {
+  padding: 60px 0px 0px 0px;
+}
+
+.card__img img {
+  border-radius: 20px;
+  max-width: 500px;
+  max-height: 500px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgb(253, 176, 176);
+          box-shadow: 0px 0px 10px 0px rgb(253, 176, 176);
+}
+.card__name p {
+  padding: 10px 0px 0px 0px;
+  font-size: 20px;
+  color: white;
+}
+
+.card-last {
+  padding: 60px 0px 70px 0px;
+}
+
+@media (max-width: 550px) {
+  .card__img img {
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(253, 176, 176);
+            box-shadow: 0px 0px 10px 0px rgb(253, 176, 176);
+  }
+}
+@media (max-width: 330px) {
+  .card__img img {
+    border-radius: 20px;
+    max-width: 150px;
+    max-height: 150px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(253, 176, 176);
+            box-shadow: 0px 0px 10px 0px rgb(253, 176, 176);
+  }
+  .card__name p {
+    padding: 10px 20px 0px 20px;
+    font-size: 20px;
+    color: white;
+  }
+}
